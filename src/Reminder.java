@@ -17,9 +17,9 @@ public class Reminder {
         thirdTask = third;
     }
     public void remind(){
-        System.out.println(this.firstTask);
-        System.out.println(this.secondTask);
-        System.out.println(this.thirdTask);
+        System.out.println(this.firstTask + " today");
+        System.out.println(this.secondTask + " tomorrow");
+        System.out.println(this.thirdTask + " tomorrow") ;
     }
 
     public static void main(String[] args) {
